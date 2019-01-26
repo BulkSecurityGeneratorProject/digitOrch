@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "DigitOrch",
+    "packageName": "it.wlp.dev",
+    "packageFolder": "it/wlp/dev",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "it",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.0",
+    "jwtSecretKey": "NTI0ZTJlZDAxZmQ1ZTcyYjEyNWU1ODdhMWJhOGQzYzRjNjhiYmYxZTgyY2I2ZjI3OGFkZWQ3YTVhYjQwMThmMWIxOTVjYWY4NGMyNmExNDgyYTU3YWRhYjM2NmE3MWU4Y2Q2NmRlNTAzNWFlOTA5YjhiNWM3MDNjZGM1YTZmNTE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "jerome74",
+  "repository-name": "digitOrch"
+}
